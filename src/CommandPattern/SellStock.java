@@ -9,18 +9,14 @@ package CommandPattern;
  *
  * @author HP
  */
-public class SellStock implements Order{
+public class SellStock implements Order {
+   private Stock abcStock;
 
-    private Stock abcStock;
+   public SellStock(Stock abcStock){
+      this.abcStock = abcStock;
+   }
 
-    public SellStock(Stock abcStock) {
-        this.abcStock = abcStock;
-    }
-    
-    
-    @Override
-    public void execute() {
-        abcStock.sell();
-    }
-    
+   public void execute() {
+      abcStock.sell();
+   }
 }

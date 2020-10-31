@@ -22,14 +22,14 @@ public abstract class Logger {
     }
     
     public void logMessage(int levels, String msg){
-        System.out.println(this.levels);
-        System.out.println(levels);
+//        System.out.println(this.levels);
+//        System.out.println(levels);
         if(this.levels <= levels){
             displayLogInfo(msg);
         }
         if(nextLevelLogger != null){
             
-            System.out.println(nextLevelLogger);
+//            System.out.println(nextLevelLogger);
             nextLevelLogger.logMessage(levels, msg);
         }
     }
