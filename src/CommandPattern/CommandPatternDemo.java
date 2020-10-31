@@ -11,4 +11,17 @@ package CommandPattern;
  */
 public class CommandPatternDemo {
     
+    public static void main(String arg[]){
+        Stock abcStock = new Stock();
+        
+        BuyStock buyStockOrder = new BuyStock(abcStock);
+        SellStock sellsStockOrder = new SellStock(abcStock);
+        
+        Broker broker = new Broker();
+        broker.takeOrder(buyStockOrder);
+        broker.takeOrder(sellsStockOrder);
+        
+        broker.placeOrders();
+    }
+    
 }
