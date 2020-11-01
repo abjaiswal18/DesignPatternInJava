@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/ProxyPattern/ProxyInternetAccess.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/ProxyPattern/ProxyPatternClient.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/ProxyPattern/RealInternetAccess.java</file>
-            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/ProxyPattern/OfficeInternetAccess.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/StatePattern/State.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/StatePattern/Context.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/StatePattern/StopState.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/StatePattern/StatePatternDemo.java</file>
+            <file>file:/C:/Users/HP/Documents/NetBeansProjects/DesignPattern/src/StatePattern/StartState.java</file>
         </group>
     </open-files>
 </project-private>
