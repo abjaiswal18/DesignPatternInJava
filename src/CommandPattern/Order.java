@@ -10,7 +10,5 @@ package CommandPattern;
  * @author HP
  */
 public interface Order {
-    
-    void execute();
-    
+   void execute();
 }
